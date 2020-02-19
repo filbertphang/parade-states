@@ -8,6 +8,11 @@ verify_ssl = true
 [packages]
 django = "*"
 requests = "*"
+gunicorn = "*"
+dj-database-url = "*"
+whitenoise = "*"
+psycopg2 = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.8"
